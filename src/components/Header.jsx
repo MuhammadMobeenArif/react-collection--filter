@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full px-19 border-b-2 bg-black">
+    <div className="w-full flex justify-between items-center w-full px-10 border-b-4 bg-black">
       <div>
         <img
           src="https://cdn1.vectorstock.com/i/1000x1000/94/15/fast-food-logo-original-design-set-burger-pizza-vector-36689415.jpg"
           alt=""
           className="w-35 h-16 rounded-full" />
       </div>
-  <div className="flex items-center gap-6">
+  <div className="flex flex-row items-center gap-8 text-white">
     <a href="/" className="hover:text-yellow-400">Home</a>
     <a href="/products" className="hover:text-yellow-400">Products</a>
     <a href="/cart" className="hover:text-yellow-400">Cart</a>
