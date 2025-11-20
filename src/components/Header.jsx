@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 function Header() {
-     return (
+  return (
     <div className="flex justify-between items-center w-full px-19 border-b-2 bg-black">
       <div>
         <img
           src="https://cdn1.vectorstock.com/i/1000x1000/94/15/fast-food-logo-original-design-set-burger-pizza-vector-36689415.jpg"
           alt=""
           className="w-35 h-16 rounded-full" />
-        </div>
+      </div>
   <div className="flex items-center gap-6">
     <a href="/" className="hover:text-yellow-400">Home</a>
     <a href="/products" className="hover:text-yellow-400">Products</a>
@@ -20,7 +20,7 @@ function Header() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="size-6" >
+            className="size-6 ">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -29,8 +29,8 @@ function Header() {
               5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
           </svg>
       </button>
-      </div> </div>
+      </div>
+    </div>
   );
 }
 export default Header;
-
