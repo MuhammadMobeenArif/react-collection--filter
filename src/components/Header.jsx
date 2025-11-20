@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full px-20 border-b-2 bg-black">
+    <div className="flex justify-between items-center w-full px-19 border-b-2 bg-black">
       <div>
         <img
           src="https://cdn1.vectorstock.com/i/1000x1000/94/15/fast-food-logo-original-design-set-burger-pizza-vector-36689415.jpg"
@@ -10,18 +10,11 @@ function Header() {
           className="w-35 h-16 rounded-full"
         />
       </div>
-
-      <div className="flex gap-8 text-xl">
-        <Link to="/" className="text-white hover:text-gray-300">
-          Home
-        </Link>
-        <Link to="/products" className="text-white hover:text-gray-300">
-          Products
-        </Link>
-        <Link to="/cart" className="text-white hover:text-gray-300">
-          Cart
-        </Link>
-        <button className="text-white hover:text-gray-300">
+  <div className="flex items-center gap-6">
+    <a href="/" className="hover:text-yellow-400">Home</a>
+    <a href="/products" className="hover:text-yellow-400">Products</a>
+    <a href="/cart" className="hover:text-yellow-400">Cart</a>
+           <button className="text-white hover:text-yellow-300">
          <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -37,9 +30,12 @@ function Header() {
               2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 
               5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
             />
-          </svg></button>
+          </svg>
+      </button>
+ 
+
+
       </div>
-    </div>
   );
 }
 
