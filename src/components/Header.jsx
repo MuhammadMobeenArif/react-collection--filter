@@ -21,7 +21,7 @@ function Header() {
         <Link to="/cart" className="text-white hover:text-gray-300">
           Cart
         </Link>
-        <button>
+        <button className="text-white hover:text-gray-300">
          <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
